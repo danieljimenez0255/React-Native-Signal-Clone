@@ -2,6 +2,7 @@
   "expo": {
     "name": "signal-clone",
     "slug": "signal-clone",
+    "description": "This is a clone of the Signal Messaging App. First you have to sign in and then you can create chats similar to signal and communicate with others",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
