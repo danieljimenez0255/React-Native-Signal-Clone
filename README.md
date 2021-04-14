@@ -34,5 +34,6 @@
 <ul style="margin-bottom:20px">
 <li><a href="https://www.youtube.com/user/ssangha32">Click Me to see Main Channel</a></li>
 </ul>
-    - Sonny is an amazing developer that has taught me everything I know about React and so much more. 
+
+    - Sonny is an amazing developer that has taught me everything I know about React and so much more.
     He is an amazing developer you'll learn so much from
