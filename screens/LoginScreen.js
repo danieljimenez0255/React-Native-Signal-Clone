@@ -31,10 +31,7 @@ const LoginScreen = ({ navigation }) => {
     <KeyboardAvoidingView behavior="padding" enabled style={styles.container}>
       <StatusBar style="light" />
       <Image
-        source={{
-          uri:
-            "https://blog.mozilla.org/internetcitizen/files/2018/08/signal-logo.png",
-        }}
+        source={require("../assets/signal-clone-logo.png")}
         style={{ width: 200, height: 200 }}
       />
       <View style={styles.inputContainer}>
