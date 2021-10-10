@@ -2,14 +2,14 @@
   "expo": {
     "name": "signal-clone",
     "slug": "signal-clone",
-    "description": "This is a clone of the Signal Messaging App. First you have to sign in and then you can create chats similar to signal and communicate with others",
+    "description": "This is a clone of the Signal Messaging App. First you have to sign in and then you can create chats similar to signal and communicate with others. Also to note, you see the qr code on the right of this project landing page, make sure to have the expo go app on either your iphone or  android phone. As long as you have that app, it doesn't matter if your phone is android or not you'll be able to scan the code and it will open the app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/signal-clone-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/signal-clone-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3872e8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,12 +20,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/signal-clone-logo.png",
+        "backgroundColor": "#3872e8"
+      },
+      "package": "com.djimenez0255.signalclone"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/signal-clone-logo.png"
     }
   }
 }
